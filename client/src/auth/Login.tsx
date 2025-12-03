@@ -1,3 +1,9 @@
+{/**
+🔹 floating icons
+🔹 animated glass particles
+🔹 password eye toggle
+🔹 Form validation + toast messages 
+*/}
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import back2 from "../../src/assets/images/back2.jpg"
@@ -55,7 +61,7 @@ const Login: React.FC = () => {
                     </div>
 
                     {/* RIGHT PANEL – Login form */}
-                    <div className="w-full md:w-1/2 px-7 py-9 sm:px-9 sm:py-10">
+                    <div className="w-full md:w-[70%] lg:w-1/2 mx-auto px-7 py-9 sm:px-9 sm:py-10">
                         <div className="mb-7">
                             <h2 className="text-3xl font-semibold text-white">Sign in</h2>
                             <p className="text-sm text-white/70 mt-1">
